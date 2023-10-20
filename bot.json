@@ -1,0 +1,97 @@
+[
+    {
+      "response_type": "greeting",
+      "user_input": ["hello", "hi", "hey","hii"],
+      "bot_response": "Hey there!",
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["see you", "goodbye", "bye"],
+      "bot_response": "See you later!",
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["nice", "to", "meet", "you"],
+      "bot_response": "The pleasure is all mine!",
+      "required_words": ["nice", "meet", "you"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["what", "are", "some", "latest", "fashion", "trends"],
+      "bot_response": "The latest fashion trends for this season include oversized blazers, pastel colors, and sustainable fashion options.",
+      "required_words": ["fashion", "trends"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["what","is","the","best","way","to", "care","for","leather","shoes"],
+      "bot_response": "To care for leather shoes, wipe them clean with a damp cloth, apply leather conditioner regularly, and store them in a cool, dry place. Avoid prolonged exposure to sunlight or water.",
+      "required_words": ["care", "leather","shoes"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["what", "is", "the","return","ploicy","for","this","store"],
+      "bot_response": "The return policy varies from store to store. Typically, it's a 30-day return window, but I can look up the specific store's policy if you provide the name.",
+      "required_words": ["return", "ploicy"]
+    },
+    {
+    "response_type": "greeting",
+    "user_input": ["thanks","thank you","thnx"],
+    "bot_response": "It was my pleasure to help you",
+    "required_words": ["thanks","thank","thnx"]
+    },
+
+    {
+        "response_type": "question",
+        "user_input": ["can","you","suggest","some","stylish","dresses","for","a","formal","event"],
+        "bot_response": "Certainly! For a formal event, I recommend a classic A-line dress or a tailored sheath dress.",
+        "required_words": ["formal","event","suggest"]
+    },
+    {
+        "response_type": "question",
+        "user_input": ["can","you","please","help","me"],
+        "bot_response":"It will be my pleasure. Please tell me ur question.",
+        "required_words": ["help"]
+        
+    },
+    {
+    "response_type":"question",
+    "user_input": ["can","you suggest","some","good","fashion","brands"],
+    "bot_response": "Sure, some good shopping brands are h&m,biba,annabelle,people",
+    "required_words":["shopping","fashion","brands"]
+    },
+    {
+      "response_type":"question",
+      "user_input":["i","haven't","received","my","order","where","is","it"],
+      "bot_response": " I'm sorry to hear that your order hasn't arrived. To assist you, please provide me with your order number, and I will check its current status and estimated delivery date for you.",
+      "required_words": ["received","order"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["my", "order","arrived", "damaged", "What", "should","i","do"],
+      "bot_response": "I apologize for the inconvenience. Contact our customer team for further procedure.",
+      "required_words": ["damages","order"]
+    },
+    {
+      "response_type":"question",
+      "user_input": ["how","can","i","cancel","my","order"],
+      "bot_response": "Kindly check if your order is eligible for cancellation. If yes,I will guide you through process.",
+      "required_words": ["cancel","order"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["i","received","wrong","order","can","pls","help","me"],
+      "bot_response":"I apologize for mix-up. Kindly contact our customer care. Once again I apologize for inconvenince caused.",
+      "required_words": ["wrong","order"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["what","is","the","status","of","my","recent","return","request"],
+      "bot_response": "o check the status of your return request, please provide the return request number or the order number associated with the return. I will look up the current status for you.",
+      "required_words": ["return"]
+    }
+
+    
+
+  ]
